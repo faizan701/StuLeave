@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/studentNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: John Doe"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/rollNoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll No: 12345"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/dateRangeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Period: 01/05/2023 to 05/05/2023"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/reasonTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reason: Medical leave due to fever"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/viewDocumentButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="View Document"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/approveButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Approve"
+                android:backgroundTint="#4CAF50"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/rejectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Reject"
+                android:backgroundTint="#F44336"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView> 

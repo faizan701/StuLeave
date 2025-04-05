@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "896408070619",
+    "project_id": "stuleave-e554c",
+    "storage_bucket": "stuleave-e554c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896408070619:android:d996bc8c521e4c4a6e1ffe",
+        "android_client_info": {
+          "package_name": "com.example.stuleave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdUbtogy5dUF-zf1O5xamZE0tZCo5Zalc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
